@@ -11,8 +11,10 @@
 }
 
 .login{
-    background-color: rgba(91, 148, 222, 0.8);
+    background-color: rgba(41, 65, 96, 0.8);
+    color: #969696;
     margin-top: 300px;
+    padding: 30px;
 }
 
 @media(min-width: 128px) {
