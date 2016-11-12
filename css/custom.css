@@ -1,0 +1,76 @@
+.menu{
+    background-color: #dedede;
+    padding: 5px;
+}
+
+.login-page{
+    background-size: cover;
+    background: url("../img/background.jpg") no-repeat fixed;
+    width: auto;
+    height: auto;
+}
+
+.login{
+    background-color: rgba(91, 148, 222, 0.8);
+    margin-top: 300px;
+}
+
+@media(min-width: 128px) {
+    .login{
+        margin-top: 10px;
+    }
+
+    .login-page{
+        background: url("../img/background.jpg") 68% 19%;
+    }
+}
+
+@media(min-width: 420px) {
+    .login{
+        margin-top: 30px;
+    }
+
+    .login-page{
+        background: url("../img/background.jpg") 75% 15%;
+    }
+}
+
+@media(min-width: 512px) {
+    .login{
+        margin-top: 50px;
+    }
+
+    .login-page{
+        background: url("../img/background.jpg") 65% 15%;
+    }
+}
+
+@media(min-width: 768px) {
+    .login{
+      margin-top: 100px;
+    }
+
+    .login-page{
+        background: url("../img/background.jpg") 55% 15%;
+    }
+}
+
+@media(min-width: 992px) {
+    .login{
+        margin-top: 150px;
+    }
+
+    .login-page{
+        background: url("../img/background.jpg") 45% 15%;
+    }
+}
+
+@media(min-width: 1200px) {
+    .login{
+        margin-top: 200px;
+    }
+
+    .login-page{
+        background: url("../img/background.jpg") 35% 15%;
+    }
+}
