@@ -7,6 +7,25 @@
     padding: 3px;
 }
 
+.digit-last{
+    /*margin-left: 58px;*/
+}
+
+.login-label{
+    margin-top: 10px;
+}
+
+.login-pinpad{
+    /*width: 340px;*/
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login input.full-width{
+    margin: 5px;
+    width: 95%;
+}
+
 .login-page{
     background-size: cover;
     background: url("../img/background.jpg") no-repeat fixed;
@@ -60,6 +79,10 @@
         margin-top: 2%;
         margin-left: 2% !important;
         width: 96% !important;
+    }
+
+    .login input.full-width{
+        height: 42px;
     }
 }
 
