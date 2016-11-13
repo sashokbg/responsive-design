@@ -3,6 +3,10 @@
     padding: 5px;
 }
 
+.digit{
+    padding: 3px;
+}
+
 .login-page{
     background-size: cover;
     background: url("../img/background.jpg") no-repeat fixed;
@@ -92,5 +96,12 @@
 
     .login-page{
         background: url("../img/background.jpg") 35% 15%;
+    }
+}
+
+@media(min-width: 1900px) {
+    .login-page{
+        background: url("../img/background.jpg");
+        background-size: cover;
     }
 }
