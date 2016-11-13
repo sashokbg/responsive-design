@@ -17,13 +17,22 @@
     padding: 30px;
 }
 
-@media(min-width: 128px) {
+.debug li{
+    display: none;
+    color: white;
+}
+
+@media(max-width: 420px) {
     .login{
         margin-top: 10px;
     }
 
     .login-page{
         background: url("../img/background.jpg") 68% 19%;
+    }
+
+    .debug li._128{
+        display: inline;
     }
 }
 
@@ -35,13 +44,22 @@
     .login-page{
         background: url("../img/background.jpg") 75% 15%;
     }
+
+    .debug li._420{
+        display: inline;
+    }
+}
+
+/* Until 512 */
+@media(max-width: 512px) {
+    .login{
+        margin-top: 2%;
+        margin-left: 2% !important;
+        width: 96% !important;
+    }
 }
 
 @media(min-width: 512px) {
-    .login{
-        margin-top: 50px;
-    }
-
     .login-page{
         background: url("../img/background.jpg") 65% 15%;
     }
