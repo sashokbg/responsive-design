@@ -1,0 +1,73 @@
+.center-content{
+    background-color: rgba(255,255,255,0.0);
+    height: 1200px;
+    opacity: 0.8;
+    overflow: scroll;
+}
+
+.menu-footer{
+    background-color: rgba(128,128,128,0.2) !important;
+}
+
+.menu-footer .text-muted{
+    /*background-color: rgba(128,128,128,1);*/
+    color: darkgrey;
+}
+
+.scrollable-page{
+    background-size: cover;
+    background: url("../img/background.jpg") no-repeat fixed;
+    width: auto;
+    height: auto;
+}
+
+
+@media(max-width: 420px) {
+    .scrollable-page{
+        background: url("../img/background.jpg") 68% 19%;
+    }
+}
+
+@media(min-width: 420px) {
+    .scrollable-page{
+        background: url("../img/background.jpg") 75% 15%;
+    }
+}
+
+/* Until 512 */
+@media(max-width: 512px) {
+    .login input.full-width{
+        height: 42px;
+    }
+}
+
+@media(min-width: 512px) {
+    .scrollable-page{
+        background: url("../img/background.jpg") 65% 15%;
+    }
+}
+
+@media(min-width: 768px) {
+    .scrollable-page{
+        background: url("../img/background.jpg") 55% 15%;
+    }
+}
+
+@media(min-width: 992px) {
+    .scrollable-page{
+        background: url("../img/background.jpg") 45% 15%;
+    }
+}
+
+@media(min-width: 1200px) {
+    .scrollable-page{
+        background: url("../img/background.jpg") 35% 15%;
+    }
+}
+
+@media(min-width: 1900px) {
+    .scrollable-page{
+        background: url("../img/background.jpg");
+        background-size: cover;
+    }
+}
